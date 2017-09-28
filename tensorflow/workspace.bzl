@@ -640,7 +640,7 @@ def tf_workspace(path_prefix="", tf_repo_name=""):
       urls = [
           "https://github.com/aws/aws-sdk-cpp/archive/1.2.3.tar.gz",
       ],
-      sha256 = "f599b57aec4f03ad696044dd430b2d201864113937353adc346f53ad47991319",
+      sha256 = "39d7b2960325b97d6e9c13f3edda0db7ce155fa3c92ac7263cfeb1388372ed2a",
       strip_prefix = "aws-sdk-cpp-1.0.90",
       build_file = str(Label("//third_party:aws.BUILD")),
   )
